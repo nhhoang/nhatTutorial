@@ -3,13 +3,11 @@ using System.Collections;
 
 public class DoWhileLoop : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-	
+	public bool hello = false;
+	void Update() {
+		do {
+				Debug.Log("Hello World!");
+			}
+			while(hello);		
 	}
 }
