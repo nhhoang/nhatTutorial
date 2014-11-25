@@ -9,6 +9,5 @@ public class UpdateAndFixedUpdate : MonoBehaviour {
 
 	void FixedUpdate() {
 		Debug.Log("FixedUpdate time: " + Time.deltaTime);	
-	}
-	
+	}	
 }

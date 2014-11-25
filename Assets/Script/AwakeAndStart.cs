@@ -10,5 +10,4 @@ public class AwakeAndStart : MonoBehaviour {
 	void Start() {
 		Debug.Log("Start called");	
 	}
-
 }

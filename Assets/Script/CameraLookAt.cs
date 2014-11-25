@@ -5,7 +5,7 @@ public class CameraLookAt : MonoBehaviour {
 
 	public Transform target;
 
-	void Update () {
+	void Update() {
 		transform.LookAt(target);	
 	}
 }

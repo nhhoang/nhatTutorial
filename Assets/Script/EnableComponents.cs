@@ -7,16 +7,14 @@ public class EnableComponents : MonoBehaviour {
 	public VectorMaths vectoMath;
 
 	// Use this for initialization
-	void Start () {
+	void Start() {
 		// vectoMath = GetComponent<VectorMaths>();	
 	}
 	
 	// Update is called once per frame
-	void Update () {
-		if(Input.GetKeyUp(KeyCode.Space)) {
+	void Update() {
+		if (Input.GetKeyUp(KeyCode.Space)) {
 			vectoMath.enabled = !vectoMath.enabled;
 		}	
-
 	}
-
 }

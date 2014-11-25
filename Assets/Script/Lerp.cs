@@ -17,8 +17,7 @@ public class Lerp : MonoBehaviour {
 		newPos = posA;
 		colorA = Color.red;
 		colorB = Color.blue;
-		newColor = colorA;
-	
+		newColor = colorA;	
 	}
 	
 	// Update is called once per frame
@@ -28,30 +27,26 @@ public class Lerp : MonoBehaviour {
 	}
 
 	void PositionChanging() {
-		if(Input.GetKeyDown(KeyCode.Space)) {
-			if(newPos == posA) {
+		if (Input.GetKeyDown(KeyCode.Space)) {
+			if (newPos == posA) {
 				newPos = posB;
-			} 
-			else {
+			} else {
 				newPos = posA;
 			}
 		}
 
 		transform.position = Vector3.Lerp(transform.position, newPos, velocity * Time.deltaTime);
-
 	}
 
 	void ColorChanging() {
-		if(Input.GetKeyDown(KeyCode.C)) {
-			if(newColor == colorA) {
+		if (Input.GetKeyDown(KeyCode.C)) {
+			if (newColor == colorA) {
 				newColor = colorB;
-			} 
-			else {
+			} else {
 				newColor = colorA;
 			}
 		}
 
 		gameObject.renderer.material.color = Color.Lerp(gameObject.renderer.material.color, newColor, velocity * Time.deltaTime);
-
 	}
 }

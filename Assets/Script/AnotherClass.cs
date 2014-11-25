@@ -8,18 +8,16 @@ public class AnotherClass {
 	private int stapler;
 	private int sellotape;
 
-	public void FruitMachine(int a, int b)
-    {
-    	int answer;
-    	answer = a + b;
-    	Debug.Log("Fruit total: " + answer + " a= " + a + " b= " + b);
+	public void FruitMachine(int a, int b) {
+    int answer;
+    answer = a + b;
+    Debug.Log("Fruit total: " + answer + " a= " + a + " b= " + b);
     }
 
-  public static void FruitMachineStatic(int a, int b)
-    {
-    	int answer;
-    	answer = a + b;
-    	Debug.Log("Fruit total: " + answer + " a= " + a + " b= " + b);
+  public static void FruitMachineStatic(int a, int b) {
+    int answer;
+    answer = a + b;
+    Debug.Log("Fruit total: " + answer + " a= " + a + " b= " + b);
     }
 
   private void OfficeSort(int a, int b) {

@@ -5,17 +5,15 @@ public class VariablesAndFunctions : MonoBehaviour {
 
 	int myInt = 10;
 
-	void Start (){
+	void Start() {
 		myInt = MultiplyByTwo(myInt);
 		Debug.Log(myInt);
 	}
 	
-	void Update (){	
-	}
-
 	int MultiplyByTwo(int number) {
 		int temp;
 		temp = number * 2;
+
 		return temp;
 	}
 }

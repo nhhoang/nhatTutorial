@@ -7,16 +7,16 @@ public class TransformFunctions : MonoBehaviour {
   public float turnSpeed = 50f;
 
 	void Update() {
-		if(Input.GetKey(KeyCode.UpArrow))
+		if (Input.GetKey(KeyCode.UpArrow))
       transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
 
-    if(Input.GetKey(KeyCode.DownArrow))
+    if (Input.GetKey(KeyCode.DownArrow))
       transform.Translate(Vector3.back * moveSpeed * Time.deltaTime);
 
-    if(Input.GetKey(KeyCode.LeftArrow))
+    if (Input.GetKey(KeyCode.LeftArrow))
     	transform.Rotate(Vector3.up, -turnSpeed * Time.deltaTime);
         
-    if(Input.GetKey(KeyCode.RightArrow))
+    if (Input.GetKey(KeyCode.RightArrow))
     	transform.Rotate(Vector3.up, turnSpeed * Time.deltaTime);
 	}
 }

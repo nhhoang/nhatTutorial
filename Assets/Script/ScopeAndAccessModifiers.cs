@@ -7,7 +7,7 @@ public class ScopeAndAccessModifiers : MonoBehaviour {
 
 	private int beta = 1;
 	private int gamma = 5;
-
+	
 	private AnotherClass myOtherClass;
 
 	void Start() {
