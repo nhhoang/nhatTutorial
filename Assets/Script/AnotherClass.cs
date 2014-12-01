@@ -25,4 +25,12 @@ public class AnotherClass {
   	answer = a + b;
   	Debug.Log("Office Supplies total: " + answer);
   }
+
+  public static int Add(int a, int b) {
+    return a + b;
+  }
+
+  public static string Add(string a, string b) {
+    return a + b;
+  }
 }
