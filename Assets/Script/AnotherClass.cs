@@ -33,4 +33,8 @@ public class AnotherClass {
   public static string Add(string a, string b) {
     return a + b;
   }
+
+  public T GenericMethod<T>(T param) {
+    return param;
+  }
 }
