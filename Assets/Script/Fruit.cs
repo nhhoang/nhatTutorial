@@ -22,4 +22,8 @@ public class Fruit {
 	public void SayHello() {
 		Debug.Log("Hello, I am a fruit.");
 	}
+
+	public virtual void Talking() {
+		Debug.Log("Fruit is talking.");
+	}
 }
